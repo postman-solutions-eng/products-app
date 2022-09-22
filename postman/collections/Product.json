@@ -323,7 +323,7 @@
 							"    pm.expect(jsonData).to.include.all.keys(\"id\", \"category\", \"brand\", \"color\", \"gender\", \"unitPrice\", \"unitSalePrice\");",
 							"});",
 							"",
-							"pm.test(\"Expect gender to be m, f, or u (unisex)\", function () {",
+							"pm.test(\"Expect gender to be m, f, or u ( unisex )\", function () {",
 							"   pm.expect(jsonData.gender).to.be.oneOf([\"m\", \"f\", \"u\"]);",
 							"});",
 							"",
